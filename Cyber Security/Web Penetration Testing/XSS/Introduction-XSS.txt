@@ -1,0 +1,17 @@
+XSS INTRODUCTION: - 
+
+   3 types: 
+      Stored (persistent),
+      Reflected (non-persistent),
+      DOM-based (client-side logic).
+
+   1) Stored (Persistent)
+            Attacker’s input is saved on the server (DB/log/CMS) and later shown to others.
+
+   2) Reflected (Non-persistent)
+            Payload rides in the request (URL, form, header) and is immediately echoed in the response.
+
+   3) DOM-Based (Client-side)
+            Page’s JavaScript reads attacker-controlled data (URL, fragment, storage) and writes to a dangerous DOM sink.
+
+
